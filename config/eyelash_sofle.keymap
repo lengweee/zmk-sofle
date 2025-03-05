@@ -62,6 +62,50 @@
         };
     };
 
+    macros {
+        Copy: Copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C)>;
+            label = "COPY";
+        };
+
+        Paste: Paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(V)>;
+            label = "PASTE";
+        };
+
+        Home: Home {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A)>;
+            label = "HOME";
+        };
+
+        End: End {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(E)>;
+            label = "END";
+        };
+
+        LTab: LTab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(LEFT_BRACKET))>;
+            label = "LTAB";
+        };
+
+        RTab: RTab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(RIGHT_BRACKET))>;
+            label = "RTAB";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -80,11 +124,11 @@
 
         layer_1 {
             bindings = <
-&trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6          &kp F7         &kp F8      &kp F9     &kp F10  &trans
-&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP       &kp PAGE_DOWN  &kp UP      &kp HOME   &trans   &trans
-&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN       &kp DOWN    &kp RIGHT  &trans   &trans
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans          &trans         &kp INSERT  &kp F11    &trans   &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans          &trans         &trans      &trans     &trans
+&trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6          &kp F7         &kp F8    &kp F9     &kp F10  &trans
+&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP       &kp PAGE_DOWN  &LTab     &RTab      &trans   &trans
+&trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN       &kp DOWN  &kp RIGHT  &trans   &trans
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans          &trans         &Home     &End       &trans   &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans          &trans         &trans    &trans     &trans
             >;
 
             display-name = "layer1";
