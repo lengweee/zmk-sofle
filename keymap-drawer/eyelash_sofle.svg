@@ -657,6 +657,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">&amp;Paste</text>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="686" y="18" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="700" y="32" class="combo tap layer-activator">2</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-layer1">
@@ -1019,6 +1024,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">&amp;Paste</text>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="686" y="18" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="700" y="32" class="combo tap layer-activator">2</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-2">
@@ -1072,15 +1082,15 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">F6</text>
 </g>
-<g transform="translate(672, 35)" class="key keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">F7</text>
+<g transform="translate(672, 35)" class="key held keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<text x="0" y="-4" class="key held tap">F7</text>
 </g>
-<g transform="translate(728, 28)" class="key keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">F8</text>
+<g transform="translate(728, 28)" class="key held keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<text x="0" y="-4" class="key held tap">F8</text>
 </g>
 <g transform="translate(784, 35)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1388,6 +1398,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">&amp;Paste</text>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="686" y="18" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="700" y="32" class="combo tap layer-activator">2</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-3">
@@ -1740,6 +1755,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">&amp;Paste</text>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="686" y="18" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="700" y="32" class="combo tap layer-activator">2</text>
+</a></g>
 </g>
 </g>
 </svg>
