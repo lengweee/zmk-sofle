@@ -60,6 +60,16 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <48 49>;
         };
+
+        Copy {
+            bindings = <&Copy>;
+            key-positions = <42 43>;
+        };
+
+        Paste {
+            bindings = <&Paste>;
+            key-positions = <43 44>;
+        };
     };
 
     macros {
