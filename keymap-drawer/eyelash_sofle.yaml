@@ -275,3 +275,5 @@ combos:
   k: '&Paste'
 - p: [9, 8]
   k: '2'
+- p: [51, 39]
+  k: {t: layer1, h: toggle}
