@@ -75,6 +75,11 @@
             bindings = <&mo 2>;
             key-positions = <9 8>;
         };
+
+        Layer1 {
+            bindings = <&tog 1>;
+            key-positions = <51 39>;
+        };
     };
 
     macros {
