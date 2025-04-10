@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - '&Switch_input'
   - A
   - S
   - D
@@ -92,7 +92,7 @@ layers:
   - '&LTab'
   - '&RTab'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - F1
   - F2
   - F3
